@@ -3,10 +3,10 @@
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 
-import { CharCode } from './charCode.js';
-import { LRUCache } from './map.js';
-import { getKoreanAltChars } from './naturalLanguage/korean.js';
-import * as strings from './strings.js';
+import { CharCode } from './charCode';
+import { LRUCache } from './map';
+import { getKoreanAltChars } from './naturalLanguage/korean';
+import * as strings from './strings';
 
 export interface IFilter {
 	// Returns null if word doesn't match.

@@ -3,9 +3,9 @@
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 
-import { localize } from '../../nls.js';
-import { Lazy } from './lazy.js';
-import { LANGUAGE_DEFAULT } from './platform.js';
+import { localize } from '../../nls';
+import { Lazy } from './lazy';
+import { LANGUAGE_DEFAULT } from './platform';
 
 const minute = 60;
 const hour = minute * 60;

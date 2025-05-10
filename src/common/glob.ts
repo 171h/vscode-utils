@@ -3,14 +3,14 @@
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 
-import { equals } from './arrays.js';
-import { isThenable } from './async.js';
-import { CharCode } from './charCode.js';
-import { isEqualOrParent } from './extpath.js';
-import { LRUCache } from './map.js';
-import { basename, extname, posix, sep } from './path.js';
-import { isLinux } from './platform.js';
-import { escapeRegExpCharacters, ltrim } from './strings.js';
+import { equals } from './arrays';
+import { isThenable } from './async';
+import { CharCode } from './charCode';
+import { isEqualOrParent } from './extpath';
+import { LRUCache } from './map';
+import { basename, extname, posix, sep } from './path';
+import { isLinux } from './platform';
+import { escapeRegExpCharacters, ltrim } from './strings';
 
 export interface IRelativePattern {
 

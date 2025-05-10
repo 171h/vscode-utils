@@ -3,8 +3,8 @@
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 
-import { URI } from './uri.js';
-import { assert } from './assert.js';
+import { URI } from './uri';
+import { assert } from './assert';
 
 /**
  * @returns whether the provided parameter is a JavaScript String or not.

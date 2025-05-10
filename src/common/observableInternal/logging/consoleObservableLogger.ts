@@ -3,12 +3,12 @@
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 
-import { AutorunObserver } from '../autorun.js';
-import { IObservable, TransactionImpl } from '../base.js';
-import { Derived } from '../derived.js';
-import { IObservableLogger, IChangeInformation, addLogger } from './logging.js';
-import { FromEventObservable } from '../utils.js';
-import { getClassName } from '../debugName.js';
+import { AutorunObserver } from '../autorun';
+import { IObservable, TransactionImpl } from '../base';
+import { Derived } from '../derived';
+import { IObservableLogger, IChangeInformation, addLogger } from './logging';
+import { FromEventObservable } from '../utils';
+import { getClassName } from '../debugName';
 
 let consoleObservableLogger: ConsoleObservableLogger | undefined;
 

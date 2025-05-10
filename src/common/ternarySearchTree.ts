@@ -3,11 +3,11 @@
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 
-import { shuffle } from './arrays.js';
-import { assert } from './assert.js';
-import { CharCode } from './charCode.js';
-import { compare, compareIgnoreCase, compareSubstring, compareSubstringIgnoreCase } from './strings.js';
-import { URI } from './uri.js';
+import { shuffle } from './arrays';
+import { assert } from './assert';
+import { CharCode } from './charCode';
+import { compare, compareIgnoreCase, compareSubstring, compareSubstringIgnoreCase } from './strings';
+import { URI } from './uri';
 
 export interface IKeyIterator<K> {
 	reset(key: K): this;

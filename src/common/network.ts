@@ -3,11 +3,11 @@
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 
-import * as errors from './errors.js';
-import * as platform from './platform.js';
-import { equalsIgnoreCase, startsWithIgnoreCase } from './strings.js';
-import { URI } from './uri.js';
-import * as paths from './path.js';
+import * as errors from './errors';
+import * as platform from './platform';
+import { equalsIgnoreCase, startsWithIgnoreCase } from './strings';
+import { URI } from './uri';
+import * as paths from './path';
 
 export namespace Schemas {
 

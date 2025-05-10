@@ -3,9 +3,9 @@
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 
-import { Emitter, Event } from './event.js';
-import { Disposable, IDisposable } from './lifecycle.js';
-import * as nls from '../../nls.js';
+import { Emitter, Event } from './event';
+import { Disposable, IDisposable } from './lifecycle';
+import * as nls from '../../nls';
 
 export interface ITelemetryData {
 	readonly from?: string;

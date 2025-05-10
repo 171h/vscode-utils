@@ -3,12 +3,12 @@
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 
-import { illegalArgument } from './errors.js';
-import { escapeIcons } from './iconLabels.js';
-import { Schemas } from './network.js';
-import { isEqual } from './resources.js';
-import { escapeRegExpCharacters } from './strings.js';
-import { URI, UriComponents } from './uri.js';
+import { illegalArgument } from './errors';
+import { escapeIcons } from './iconLabels';
+import { Schemas } from './network';
+import { isEqual } from './resources';
+import { escapeRegExpCharacters } from './strings';
+import { URI, UriComponents } from './uri';
 
 export interface MarkdownStringTrustedOptions {
 	readonly enabledCommands: readonly string[];

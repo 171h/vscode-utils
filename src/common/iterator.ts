@@ -3,7 +3,7 @@
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 
-import { isIterable } from './types.js';
+import { isIterable } from './types';
 
 export namespace Iterable {
 

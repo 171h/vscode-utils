@@ -2,9 +2,9 @@
  *  Copyright (c) Microsoft Corporation. All rights reserved.
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
-import { ThemeIcon } from './themables.js';
-import { register } from './codiconsUtil.js';
-import { codiconsLibrary } from './codiconsLibrary.js';
+import { ThemeIcon } from './themables';
+import { register } from './codiconsUtil';
+import { codiconsLibrary } from './codiconsLibrary';
 
 
 /**

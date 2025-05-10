@@ -3,10 +3,10 @@
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 
-import { SetWithKey } from './collections.js';
-import { Event } from './event.js';
-import { IDisposable } from './lifecycle.js';
-import { ArrayNavigator, INavigator } from './navigator.js';
+import { SetWithKey } from './collections';
+import { Event } from './event';
+import { IDisposable } from './lifecycle';
+import { ArrayNavigator, INavigator } from './navigator';
 
 export interface IHistory<T> {
 	delete(t: T): boolean;

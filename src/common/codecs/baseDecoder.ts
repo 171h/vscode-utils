@@ -3,13 +3,13 @@
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 
-import { Emitter } from '../event.js';
-import { ReadableStream } from '../stream.js';
-import { DeferredPromise } from '../async.js';
-import { AsyncDecoder } from './asyncDecoder.js';
-import { assert, assertNever } from '../assert.js';
-import { DisposableMap, IDisposable } from '../lifecycle.js';
-import { ObservableDisposable } from '../observableDisposable.js';
+import { Emitter } from '../event';
+import { ReadableStream } from '../stream';
+import { DeferredPromise } from '../async';
+import { AsyncDecoder } from './asyncDecoder';
+import { assert, assertNever } from '../assert';
+import { DisposableMap, IDisposable } from '../lifecycle';
+import { ObservableDisposable } from '../observableDisposable';
 
 /**
  * Event names of {@link ReadableStream} stream.

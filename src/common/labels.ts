@@ -3,12 +3,12 @@
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 
-import { hasDriveLetter, toSlashes } from './extpath.js';
-import { posix, sep, win32 } from './path.js';
-import { isMacintosh, isWindows, OperatingSystem, OS } from './platform.js';
-import { extUri, extUriIgnorePathCase } from './resources.js';
-import { rtrim, startsWithIgnoreCase } from './strings.js';
-import { URI } from './uri.js';
+import { hasDriveLetter, toSlashes } from './extpath';
+import { posix, sep, win32 } from './path';
+import { isMacintosh, isWindows, OperatingSystem, OS } from './platform';
+import { extUri, extUriIgnorePathCase } from './resources';
+import { rtrim, startsWithIgnoreCase } from './strings';
+import { URI } from './uri';
 
 export interface IPathLabelFormatting {
 

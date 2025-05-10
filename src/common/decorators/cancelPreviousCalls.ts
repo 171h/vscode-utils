@@ -3,9 +3,9 @@
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 
-import { assertDefined } from '../types.js';
-import { Disposable, DisposableMap } from '../lifecycle.js';
-import { CancellationTokenSource, CancellationToken } from '../cancellation.js';
+import { assertDefined } from '../types';
+import { Disposable, DisposableMap } from '../lifecycle';
+import { CancellationTokenSource, CancellationToken } from '../cancellation';
 
 /**
  * Helper type that represents a function that has an optional {@linkcode CancellationToken}

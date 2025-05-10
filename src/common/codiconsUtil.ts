@@ -2,8 +2,8 @@
  *  Copyright (c) Microsoft Corporation. All rights reserved.
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
-import { ThemeIcon } from './themables.js';
-import { isString } from './types.js';
+import { ThemeIcon } from './themables';
+import { isString } from './types';
 
 
 const _codiconFontCharacters: { [id: string]: number } = Object.create(null);

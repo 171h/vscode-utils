@@ -3,8 +3,8 @@
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 
-import { Disposable, DisposableMap } from '../../base/common/lifecycle.js';
-import { ObservableDisposable, assertNotDisposed } from './observableDisposable.js';
+import { Disposable, DisposableMap } from '../../base/common/lifecycle';
+import { ObservableDisposable, assertNotDisposed } from './observableDisposable';
 
 /**
  * Generic cache for object instances. Guarantees to return only non-disposed

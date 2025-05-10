@@ -3,9 +3,9 @@
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 
-import { illegalArgument } from './errors.js';
-import { KeyCode, ScanCode } from './keyCodes.js';
-import { OperatingSystem } from './platform.js';
+import { illegalArgument } from './errors';
+import { KeyCode, ScanCode } from './keyCodes';
+import { OperatingSystem } from './platform';
 
 /**
  * Binary encoding strategy:

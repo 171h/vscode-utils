@@ -3,8 +3,8 @@
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 
-import { isHotReloadEnabled, registerHotReloadHandler } from './hotReload.js';
-import { constObservable, IObservable, IReader, ISettableObservable, observableSignalFromEvent, observableValue } from './observable.js';
+import { isHotReloadEnabled, registerHotReloadHandler } from './hotReload';
+import { constObservable, IObservable, IReader, ISettableObservable, observableSignalFromEvent, observableValue } from './observable';
 
 export function readHotReloadableExport<T>(value: T, reader: IReader | undefined): T {
 	observeHotReloadableExports([value], reader);

@@ -3,7 +3,7 @@
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 
-import type { INodeProcess } from './platform.js';
+import type { INodeProcess } from './platform';
 
 function _definePolyfillMarks(timeOrigin?: number) {
 	const _data: [string?, number?] = [];

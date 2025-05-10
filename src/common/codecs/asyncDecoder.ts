@@ -3,8 +3,8 @@
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 
-import { Disposable } from '../lifecycle.js';
-import { BaseDecoder } from './baseDecoder.js';
+import { Disposable } from '../lifecycle';
+import { BaseDecoder } from './baseDecoder';
 
 /**
  * Asynchronous iterator wrapper for a decoder.

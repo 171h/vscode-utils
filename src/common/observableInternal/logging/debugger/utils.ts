@@ -3,7 +3,7 @@
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 
-import { IDisposable } from '../../../lifecycle.js';
+import { IDisposable } from '../../../lifecycle';
 
 export function getFirstStackFrameOutsideOf(stack: string, pattern?: RegExp): ILocation | undefined {
 	const lines = stack.split('\n');

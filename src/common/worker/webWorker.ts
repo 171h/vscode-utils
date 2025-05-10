@@ -3,12 +3,12 @@
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 
-import { CharCode } from '../charCode.js';
-import { onUnexpectedError, transformErrorForSerialization } from '../errors.js';
-import { Emitter, Event } from '../event.js';
-import { Disposable, IDisposable } from '../lifecycle.js';
-import { isWeb } from '../platform.js';
-import * as strings from '../strings.js';
+import { CharCode } from '../charCode';
+import { onUnexpectedError, transformErrorForSerialization } from '../errors';
+import { Emitter, Event } from '../event';
+import { Disposable, IDisposable } from '../lifecycle';
+import { isWeb } from '../platform';
+import * as strings from '../strings';
 
 const DEFAULT_CHANNEL = 'default';
 const INITIALIZE = '$initialize';

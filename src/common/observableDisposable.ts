@@ -3,7 +3,7 @@
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 
-import { Disposable, DisposableStore, IDisposable, toDisposable } from './lifecycle.js';
+import { Disposable, DisposableStore, IDisposable, toDisposable } from './lifecycle';
 
 /**
  * Disposable object that tracks its {@linkcode isDisposed} state

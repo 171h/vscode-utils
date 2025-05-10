@@ -3,10 +3,10 @@
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 
-import { distinct } from './arrays.js';
-import { Iterable } from './iterator.js';
-import { URI } from './uri.js';
-import { generateUuid } from './uuid.js';
+import { distinct } from './arrays';
+import { Iterable } from './iterator';
+import { URI } from './uri';
+import { generateUuid } from './uuid';
 
 export interface IDataTransferFile {
 	readonly id: string;

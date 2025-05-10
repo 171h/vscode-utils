@@ -3,9 +3,9 @@
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 
-import { range } from './arrays.js';
-import { CancellationToken, CancellationTokenSource } from './cancellation.js';
-import { CancellationError } from './errors.js';
+import { range } from './arrays';
+import { CancellationToken, CancellationTokenSource } from './cancellation';
+import { CancellationError } from './errors';
 
 /**
  * A Pager is a stateless abstraction over a paged collection.

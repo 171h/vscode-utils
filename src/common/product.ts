@@ -3,9 +3,9 @@
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 
-import { IStringDictionary } from './collections.js';
-import { PlatformName } from './platform.js';
-import { IPolicy } from './policy.js';
+import { IStringDictionary } from './collections';
+import { PlatformName } from './platform';
+import { IPolicy } from './policy';
 
 export interface IBuiltInExtension {
 	readonly name: string;

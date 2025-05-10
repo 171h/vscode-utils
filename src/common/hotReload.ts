@@ -3,8 +3,8 @@
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 
-import { IDisposable } from './lifecycle.js';
-import { env } from './process.js';
+import { IDisposable } from './lifecycle';
+import { env } from './process';
 
 export function isHotReloadEnabled(): boolean {
 	return env && !!env['VSCODE_DEV_DEBUG'];

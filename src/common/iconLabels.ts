@@ -3,9 +3,9 @@
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 
-import { IMatch, matchesFuzzy } from './filters.js';
-import { ltrim } from './strings.js';
-import { ThemeIcon } from './themables.js';
+import { IMatch, matchesFuzzy } from './filters';
+import { ltrim } from './strings';
+import { ThemeIcon } from './themables';
 
 const iconStartMarker = '$(';
 

@@ -3,15 +3,15 @@
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 
-import { CancellationToken, CancellationTokenSource } from './cancellation.js';
-import { BugIndicatingError, CancellationError } from './errors.js';
-import { Emitter, Event } from './event.js';
-import { Disposable, DisposableMap, DisposableStore, IDisposable, isDisposable, MutableDisposable, toDisposable } from './lifecycle.js';
-import { extUri as defaultExtUri, IExtUri } from './resources.js';
-import { URI } from './uri.js';
-import { setTimeout0 } from './platform.js';
-import { MicrotaskDelay } from './symbols.js';
-import { Lazy } from './lazy.js';
+import { CancellationToken, CancellationTokenSource } from './cancellation';
+import { BugIndicatingError, CancellationError } from './errors';
+import { Emitter, Event } from './event';
+import { Disposable, DisposableMap, DisposableStore, IDisposable, isDisposable, MutableDisposable, toDisposable } from './lifecycle';
+import { extUri as defaultExtUri, IExtUri } from './resources';
+import { URI } from './uri';
+import { setTimeout0 } from './platform';
+import { MicrotaskDelay } from './symbols';
+import { Lazy } from './lazy';
 
 export function isThenable<T>(obj: unknown): obj is Promise<T> {
 	return !!obj && typeof (obj as unknown as Promise<T>).then === 'function';

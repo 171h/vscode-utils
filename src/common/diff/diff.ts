@@ -3,9 +3,9 @@
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 
-import { DiffChange } from './diffChange.js';
-import { stringHash } from '../hash.js';
-import { Constants } from '../uint.js';
+import { DiffChange } from './diffChange';
+import { stringHash } from '../hash';
+import { Constants } from '../uint';
 
 export class StringDiffSequence implements ISequence {
 

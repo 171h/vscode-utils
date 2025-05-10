@@ -3,11 +3,11 @@
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 
-import { IObservable, IObservableWithChange, IObserver, IReader } from './base.js';
-import { DebugNameData, IDebugNameData } from './debugName.js';
-import { assertFn, BugIndicatingError, DisposableStore, IDisposable, markAsDisposed, onBugIndicatingError, toDisposable, trackDisposable } from './commonFacade/deps.js';
-import { getLogger } from './logging/logging.js';
-import { IChangeTracker } from './changeTracker.js';
+import { IObservable, IObservableWithChange, IObserver, IReader } from './base';
+import { DebugNameData, IDebugNameData } from './debugName';
+import { assertFn, BugIndicatingError, DisposableStore, IDisposable, markAsDisposed, onBugIndicatingError, toDisposable, trackDisposable } from './commonFacade/deps';
+import { getLogger } from './logging/logging';
+import { IChangeTracker } from './changeTracker';
 
 /**
  * Runs immediately and whenever a transaction ends and an observed observable changed.

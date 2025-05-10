@@ -3,8 +3,8 @@
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 
-import { VSBuffer } from './buffer.js';
-import * as strings from './strings.js';
+import { VSBuffer } from './buffer';
+import * as strings from './strings';
 
 type NotSyncHashable = ArrayBufferLike | ArrayBufferView;
 

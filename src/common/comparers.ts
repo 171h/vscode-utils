@@ -3,9 +3,9 @@
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 
-import { safeIntl } from './date.js';
-import { Lazy } from './lazy.js';
-import { sep } from './path.js';
+import { safeIntl } from './date';
+import { Lazy } from './lazy';
+import { sep } from './path';
 
 // When comparing large numbers of strings it's better for performance to create an
 // Intl.Collator object and use the function provided by its compare property

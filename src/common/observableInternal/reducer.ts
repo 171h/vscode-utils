@@ -3,12 +3,12 @@
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 
-import { EqualityComparer, strictEquals } from '../equals.js';
-import { BugIndicatingError } from '../errors.js';
-import { IObservable, IObservableWithChange, ISettableObservable, subtransaction } from './base.js';
-import { IChangeTracker } from './changeTracker.js';
-import { DebugNameData, DebugOwner } from './debugName.js';
-import { DerivedWithSetter, IDerivedReader } from './derived.js';
+import { EqualityComparer, strictEquals } from '../equals';
+import { BugIndicatingError } from '../errors';
+import { IObservable, IObservableWithChange, ISettableObservable, subtransaction } from './base';
+import { IChangeTracker } from './changeTracker';
+import { DebugNameData, DebugOwner } from './debugName';
+import { DerivedWithSetter, IDerivedReader } from './derived';
 
 export interface IReducerOptions<T, TChangeSummary = void, TOutChange = void> {
 	/**

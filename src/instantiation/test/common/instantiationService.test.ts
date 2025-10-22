@@ -470,7 +470,7 @@ describe('Instantiation Service', () => {
 		const A = createDecorator<A>('A');
 		interface A {
 			_serviceBrand: undefined;
-			onDidDoIt: Event<any>;
+			readonly onDidDoIt: Event<any>;
 			doIt(): void;
 		}
 
@@ -480,7 +480,7 @@ describe('Instantiation Service', () => {
 			_doIt = 0;
 
 			_onDidDoIt = new Emitter<this>();
-			onDidDoIt: Event<this> = this._onDidDoIt.event;
+			readonly onDidDoIt: Event<this> = this._onDidDoIt.event;
 
 			constructor() {
 				created = true;
@@ -534,7 +534,7 @@ describe('Instantiation Service', () => {
 		const A = createDecorator<A>('A');
 		interface A {
 			_serviceBrand: undefined;
-			onDidDoIt: Event<any>;
+			readonly onDidDoIt: Event<any>;
 			doIt(): void;
 			noop(): void;
 		}
@@ -545,7 +545,7 @@ describe('Instantiation Service', () => {
 			_doIt = 0;
 
 			_onDidDoIt = new Emitter<this>();
-			onDidDoIt: Event<this> = this._onDidDoIt.event;
+			readonly onDidDoIt: Event<this> = this._onDidDoIt.event;
 
 			constructor() {
 				created = true;
@@ -602,7 +602,7 @@ describe('Instantiation Service', () => {
 		const A = createDecorator<A>('A');
 		interface A {
 			_serviceBrand: undefined;
-			onDidDoIt: Event<any>;
+			readonly onDidDoIt: Event<any>;
 			doIt(): void;
 		}
 		let created = false;
@@ -611,7 +611,7 @@ describe('Instantiation Service', () => {
 			_doIt = 0;
 
 			_onDidDoIt = new Emitter<this>();
-			onDidDoIt: Event<this> = this._onDidDoIt.event;
+			readonly onDidDoIt: Event<this> = this._onDidDoIt.event;
 
 			constructor() {
 				created = true;

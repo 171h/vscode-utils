@@ -311,9 +311,7 @@ const NULL = function (): string | null {
  *
  * See {@link FALSE} and {@link NULL}.
  */
-export const isEmptyPattern = (
-	pattern: ParsedPattern | ParsedExpression,
-): pattern is (typeof FALSE | typeof NULL) => {
+export function isEmptyPattern(pattern: ParsedPattern | ParsedExpression): pattern is (typeof FALSE | typeof NULL) {
 	if (pattern === FALSE) {
 		return true;
 	}
@@ -323,7 +321,7 @@ export const isEmptyPattern = (
 	}
 
 	return false;
-};
+}
 
 function parsePattern(arg1: string | IRelativePattern, options: IGlobOptions): ParsedStringPattern {
 	if (!arg1) {
@@ -510,7 +508,7 @@ function toRegExp(pattern: string): ParsedStringPattern {
 
 			return typeof path === 'string' && regExp.test(path) ? pattern : null;
 		};
-	} catch (error) {
+	} catch {
 		return NULL;
 	}
 }

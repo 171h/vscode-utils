@@ -1,2 +1,6 @@
+export * from './instantiation/common/descriptors'
+export * from './instantiation/common/extensions'
+export * from './instantiation/common/graph'
 export * from './instantiation/common/instantiation'
 export * from './instantiation/common/instantiationService'
+export * from './instantiation/common/serviceCollection'

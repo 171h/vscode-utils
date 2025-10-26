@@ -1,17 +1,17 @@
 {
   "name": "vscode-instantiation",
   "type": "module",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "packageManager": "pnpm@10.6.2",
-  "description": "_description_",
+  "description": "vscode instantiation dependency injection DI",
   "license": "MIT",
   "funding": "https://github.com/sponsors/171h",
-  "homepage": "https://github.com/171h/vscode-utils#readme",
+  "homepage": "https://github.com/171h/vscode-instantiation#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/171h/vscode-utils.git"
+    "url": "git+https://github.com/171h/vscode-instantiation.git"
   },
-  "bugs": "https://github.com/171h/vscode-utils/issues",
+  "bugs": "https://github.com/171h/vscode-instantiation/issues",
   "keywords": [],
   "sideEffects": false,
   "exports": {
